@@ -1,0 +1,13 @@
+print("task 1")
+nbr = int(input("Put a number > 2"))
+if nbr > 2:
+    i = 1
+    while nbr >= i:
+        i = i + 1
+        n = nbr % i
+        if n == 0:
+            print(i)
+        break
+else:
+    print("error")
+
