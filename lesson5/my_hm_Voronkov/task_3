@@ -1,0 +1,8 @@
+print("task 3")
+nbr = int(input())
+i = 1
+b = 1
+while nbr >= i:
+    b = i * b
+    i = i + 1
+print(b)
